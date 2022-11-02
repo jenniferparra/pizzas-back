@@ -1,0 +1,55 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Carlos",
+      "email": "Carlos@gmail.com",
+      "contraseña": "1234"
+      },
+      {
+      "id": 2,
+      "nombre": "Juan",
+      "email": "Juan@gmail.com",
+      "contraseña": "456"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+        "name": "Pizza-HAWAINA",
+        "precio": 10000,
+        "img": "https://t1.rg.ltmcdn.com/es/posts/1/2/6/original_pizza_hawaiana_50621_600.jpg",
+        "img2": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/como-hacer-pizza-hawaiana.jpg",
+        "img3": "https://napolicartagena.com/wp-content/uploads/2022/01/La-Pizza-Hawaiana-de-Canada.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pizza-POLLO",
+      "precio": 15000,
+      "img": "https://i.blogs.es/40c9b7/pizza-casera-champinon/840_560.jpg",
+      "img2": "http://assets.kraftfoods.com/recipe_images/opendeploy/136150_640x428.jpg",
+      "img3": "https://images.hola.com/imagenes/cocina/recetas/20200123158802/receta-pizza-pollo-barbacoa/0-772-922/pizza-pollo-adobe-m.jpg"
+      }
+      
+  ],
+  "reseñas":[
+    {
+      "id": 1,
+
+        "name": "Ricardo",
+        "comentario": "Muy buena",
+        "puntuacion":5
+      
+
+    },
+    {
+      "id": 2,
+
+        "name": "Juan",
+        "comentario": "Regular",
+        "puntuacion":3
+      
+
+    }
+  ]
+}
