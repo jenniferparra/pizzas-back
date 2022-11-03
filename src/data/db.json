@@ -5,8 +5,8 @@
       "nombre": "Carlos",
       "email": "Carlos@gmail.com",
       "contraseña": "1234"
-      },
-      {
+    },
+    {
       "id": 2,
       "nombre": "Juan",
       "email": "Juan@gmail.com",
@@ -16,11 +16,12 @@
   "pizzas": [
     {
       "id": 1,
-        "name": "Pizza-HAWAINA",
-        "precio": 10000,
-        "img": "https://t1.rg.ltmcdn.com/es/posts/1/2/6/original_pizza_hawaiana_50621_600.jpg",
-        "img2": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/como-hacer-pizza-hawaiana.jpg",
-        "img3": "https://napolicartagena.com/wp-content/uploads/2022/01/La-Pizza-Hawaiana-de-Canada.jpg"
+      "name": "Pizza-HAWAINA",
+      "precio": 10000,
+      "img": "https://www.cardamomo.news/__export/1644422142162/sites/debate/img/2022/02/09/pizza_hawaiana_crop1644421835991.jpeg_1902800913.jpeg",
+      "img2": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/como-hacer-pizza-hawaiana.jpg",
+      "img3": "https://napolicartagena.com/wp-content/uploads/2022/01/La-Pizza-Hawaiana-de-Canada.jpg",
+      "descripcion":"La pizza hawaiana es una pizza que contiene una base de salsa pomodoro, queso mozzarella fundido y como toppings jamón y piña. Algunas versiones de esta pizza incluyen tocino, camarones, cerezas, cebollas y hasta chile serrano o jalapeño. Como sea la piña está siempre presente."
     },
     {
       "id": 2,
@@ -28,28 +29,30 @@
       "precio": 15000,
       "img": "https://i.blogs.es/40c9b7/pizza-casera-champinon/840_560.jpg",
       "img2": "http://assets.kraftfoods.com/recipe_images/opendeploy/136150_640x428.jpg",
-      "img3": "https://images.hola.com/imagenes/cocina/recetas/20200123158802/receta-pizza-pollo-barbacoa/0-772-922/pizza-pollo-adobe-m.jpg"
-      }
-      
+      "img3": "https://images.hola.com/imagenes/cocina/recetas/20200123158802/receta-pizza-pollo-barbacoa/0-772-922/pizza-pollo-adobe-m.jpg",
+      "descripcion":"Esta pizza es una especie de pizza carbonara, pero con pollo, y el resultado es fantástico. Así que si te gusta la salsa carbonara, y te gusta el pollo, esta es tu pizza. La masa es esponjosa estilo pan, y la salsa es una bechamel ligera con queso que es una delicia."
+    }
   ],
-  "reseñas":[
-    {
-      "id": 1,
-
-        "name": "Ricardo",
-        "comentario": "Muy buena",
-        "puntuacion":5
-      
-
-    },
+  "comentarios": [
     {
       "id": 2,
-
-        "name": "Juan",
-        "comentario": "Regular",
-        "puntuacion":3
-      
-
+      "idUser": 2,
+      "nameUser":"Juan",
+      "img":"https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
+      "idPizzas": 2,
+      "comentario": "Regular",
+      "puntuacion": 3,
+      "tiempo":"4d ago"
+    },
+    {
+      "id": 1,
+      "idUser": 1,
+      "nameUser":"Carlos",
+      "img":"https://www.smartplacement.net/hubfs/Imported_Blog_Media/perfil-consultor-exitoso.jpg",
+      "idPizzas": 1,
+      "comentario": "Muy buena",
+      "puntuacion": 5,
+      "tiempo":"4d ago"
     }
   ]
 }
